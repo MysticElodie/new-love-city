@@ -8,25 +8,23 @@
   </head>
   <body>
   
-		<img src="title.png" alt="New Love City">
+		<img id="title" src="title.png" alt="New Love City">
 		
-        <div id="topBar" style="margin-top: 10px;">Hello, to life, to everything</div>
+        <p id="MOTD">Hello!</p>
         
         <script type="text/javascript">
             var motd = [
             	'Huh? Whuh?',
             	'Everything will be okay.',
-            	'World\'s most normal girl',
+            	'Home of the world\'s most normal girl',
             	'LUCK 10 INTELLIGENCE 1',
             	'WELCOME to ON-LINE',
             	'I\'m calling out, but can you hear me?',
             	'Hello, to life, to everything'
             ];
-            
             var message = motd[Math.floor(Math.random() * motd.length)];
-            
-            let text = document.getElementById("topBar").innerHTML; 
-            document.getElementById("topBar").innerHTML = text.replace("Hello, to life, to everything", message);
+            let text = document.getElementById("MOTD").innerHTML; 
+            document.getElementById("MOTD").innerHTML = text.replace("Hello!", message);
         </script>
   </body>
 </html>
