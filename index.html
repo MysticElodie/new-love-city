@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MysticElodie</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+        <div id="container"><div id="topBar" style="margin-top: 10px;">Hello, to life, to everything</div>
+        
+        <script type="text/javascript">
+            var motd = [
+            	'Huh? Whuh?',
+            	'Everything will be okay.',
+            	'World\'s most normal girl',
+            	'LUCK 10 INTELLIGENCE 1',
+            	'WELCOME to ON-LINE',
+            	'I\'m calling out, but can you hear me?',
+            	'Hello, to life, to everything'
+            ];
+            
+            var message = motd[Math.floor(Math.random() * motd.length)];
+            
+            let text = document.getElementById("topBar").innerHTML; 
+            document.getElementById("topBar").innerHTML = text.replace("Hello, to life, to everything", message);
+        </script>
+  </body>
+</html>
