@@ -9,6 +9,7 @@ body {
 	text-align: center;
 	margin: auto;
 	font-family: 'Outfit', sans-serif;
+	font-size: 16px;
 	max-width: 1000px;
 	display: flex;
     flex-direction: column;
