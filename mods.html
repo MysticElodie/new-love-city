@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW LOVE CITY - Mods</title>
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+    <link href="./style.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap" rel="stylesheet">
+	<script
+			  src="https://code.jquery.com/jquery-3.6.1.min.js"
+			  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+			  crossorigin="anonymous"></script>
+  </head>
+  <body>
+  
+		<header><a href="https://newlove.city/"><img id="title" src="img/title.png" alt="NEW LOVE CITY"></a></header>
+		
+		<div id="main">
+		
+			<article><div id="_article"></div></article>
+			<aside><div id="_aside"></div></aside>
+			
+			<script>
+				$("#_article").load("content/mods.html");
+				$("#_aside").load("content/aside.html");
+			</script>
+			
+		</div>
+		
+		<footer><p>2023 &#9642; MysticElodie</p></footer>
+		
+		
+  </body>
+</html>

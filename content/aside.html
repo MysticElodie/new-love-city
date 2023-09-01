@@ -1,0 +1,40 @@
+<p id="MOTD">Hello!</p>
+
+<img src="img/AvHat.png" alt="MysticElodie">
+
+<nav>
+	<h3>NEW LOVE CITY</h3>
+	<ul>
+		<li><a href="https://newlove.city/">Home</a>
+		<li><a href="https://newlove.city/mods">Mods</a>
+	</ul>
+	<h3>ELODIE ONLINE</h3>
+	<ul>
+		<li><a href="https://cohost.org/elodie">Cohost</a>
+		<li><a href="https://mysticelodie.tumblr.com">Tumblr</a>
+		<li><a href="https://github.com/MysticElodie">Github</a>
+	</ul>
+</nav>
+
+<script type="text/javascript">
+	var motd = [
+		'huh? whahuh?',
+		'everything will be okay.',
+		'world\'s most normal girl',
+		'welcome to on-line.',
+		'hello, to life, to everything',
+		'part-time space cowboy',
+		'did you know? elodie real',
+		'ooaughe...',
+		'girlkisser (ALLEGED)',
+		'memory card 59 included!',
+		'oh, it\'s elodie!',
+		'give doggirls the world',
+		'population: ellie',
+		'love girls loving girls',
+		'group biting session',
+	];
+	var message = motd[Math.floor(Math.random() * motd.length)];
+	let text = document.getElementById("MOTD").innerHTML; 
+	document.getElementById("MOTD").innerHTML = text.replace("Hello!", message);
+</script>
